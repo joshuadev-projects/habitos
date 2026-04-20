@@ -24,16 +24,16 @@
     </ul>
 </p>
 
-@auth('admin')
-        <p>
-            Você está logado!
-        </p>
+@auth
+    <p>
+        Você está logado!
+    </p>
 @endauth
 
 @guest 
 
-        <p>
-            Você não está logado!
-        </p>
+    <p>
+        Você não está logado!
+    </p>
     
 @endguest

@@ -1,39 +1,11 @@
+<x-layout>
+    <main class="'py-10">
 
-<h1>
-    Welcome to the Home
-</h1>
-
-<p>
-    olá {{ $name }} 
-</p>
-
-<p>
-    Seus hábitos são:
-
-    <ul>
-        @foreach($habits as $item)
-            <li>
-            
-                {{ $item }}
-            
-            </li>
-            
-        @endforeach
-            
-
-    </ul>
-</p>
-
-@auth
-    <p>
-        Você está logado!
-    </p>
-@endauth
-
-@guest 
-
-    <p>
-        Você não está logado!
-    </p>
+        <h1>
+            Veja seus hábitos ganharem vida!
+        </h1>
     
-@endguest
+    </main>
+    
+</x-layout>
+
